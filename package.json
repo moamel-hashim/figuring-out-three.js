@@ -1,0 +1,20 @@
+{
+  "name": "figuring-out-three.js",
+  "version": "1.0.0",
+  "description": "creating three.js code and messing around with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moamel-hashim/figuring-out-three.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moamel-hashim/figuring-out-three.js/issues"
+  },
+  "homepage": "https://github.com/moamel-hashim/figuring-out-three.js#readme"
+}
