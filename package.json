@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/moamel-hashim/figuring-out-three.js/issues"
   },
-  "homepage": "https://github.com/moamel-hashim/figuring-out-three.js#readme"
+  "homepage": "https://github.com/moamel-hashim/figuring-out-three.js#readme",
+  "dependencies": {
+    "three": "^0.138.3",
+    "three.js": "^0.77.1"
+  }
 }
