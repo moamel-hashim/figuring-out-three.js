@@ -1,24 +1,43 @@
 {
-  "name": "figuring-out-three.js",
+  "name": "code-solutions-template",
   "version": "1.0.0",
-  "description": "creating three.js code and messing around with it",
+  "private": true,
+  "description": "Code exercise solutions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moamel-hashim/figuring-out-three.js.git"
+    "url": "git+https://github.com/Learning-Fuze/code-solutions-template.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moamel-hashim/figuring-out-three.js/issues"
+    "url": "https://github.com/Learning-Fuze/code-solutions-template/issues"
   },
-  "homepage": "https://github.com/moamel-hashim/figuring-out-three.js#readme",
-  "dependencies": {
-    "three": "^0.138.3",
-    "three.js": "^0.77.1"
-  }
+  "homepage": "https://github.com/Learning-Fuze/code-solutions-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-arrow-functions": "^7.16.7",
+    "@babel/plugin-transform-block-scoping": "^7.16.7",
+    "cli": "^1.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.27.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "markuplint": "^1.11.4",
+    "react": "^17.0.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "webpack": "^5.70.0"
+  },
+  "dependencies": {},
+  "license": "ISC"
 }
